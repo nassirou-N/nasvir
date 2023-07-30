@@ -1,13 +1,12 @@
 
 import './App.css';
+import Hearder from './components/Hearder';
 
 function App() {
   return (
-    <div className="App">
-      <h1 className="text-3xl bg-green-500 underline">
-      Hello world!
-    </h1>
-    </div>
+    <>
+     <Hearder /> 
+    </>
   );
 }
 

@@ -21,7 +21,7 @@ const Hearder = () => {
         {!nav ?  <AiOutlineMenu size={20}/> : <AiOutlineClose size={20}/> }
        
       </div>
-      <ul className={ !nav ?('fixed left-[-100%] w-[60%]'):('md:hidden fixed top-24 left-0 w-[60%] ease-out duration-200 bg-black')}>
+      <ul className={ !nav ?('fixed left-[-100%] w-[60%]'):('md:hidden fixed top-24 left-0 w-[60%] h-screen ease-out duration-200 bg-black')}>
         <li className='p-4 border-b border-gray-500 text-bold cursor-pointer hover:text-[#7ff2cd] hover:border-[#7ff2cd]'>Home</li>
         <li className='p-4 border-b border-gray-500 text-bold cursor-pointer hover:text-[#7ff2cd] hover:border-[#7ff2cd]'>Company</li>
         <li className='p-4 border-b border-gray-500 text-bold cursor-pointer hover:text-[#7ff2cd] hover:border-[#7ff2cd]'>Resources</li>

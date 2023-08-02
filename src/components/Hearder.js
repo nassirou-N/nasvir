@@ -8,8 +8,8 @@ const Hearder = () => {
     }
 
   return (
-    <header className='sticky z-20 top-0'>
-      <div className=' flex justify-between bg-[#000300] items-center h-24 max-w-[1240px] mx-auto p-4 text-white'>
+    <header className='sticky z-20 top-0 bg-[#000300] '>
+      <div className=' flex justify-between items-center h-24 max-w-[1240px] mx-auto p-4 text-white'>
         <h1 className='text-4xl font-bold '>NAS<span className='text-[#00df9a]'>VIR.</span></h1>
         <ul className='hidden md:flex  '>
           <li className='p-4 text-bold cursor-pointer hover:text-[#7ff2cd]'>Home</li>

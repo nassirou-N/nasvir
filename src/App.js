@@ -3,6 +3,7 @@ import './App.css';
 import Hearder from './components/Hearder';
 import Hero from './components/Hero';
 import Feature from './components/Feature';
+import Profil from './components/Profil';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
      <Hearder /> 
      <Hero />
      <Feature />
+     <Profil />
     </div>
   );
 }

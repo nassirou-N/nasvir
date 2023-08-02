@@ -5,10 +5,10 @@ import Hero from './components/Hero';
 
 function App() {
   return (
-    <>
+    <div className='overflow-x-hidden'>
      <Hearder /> 
      <Hero />
-    </>
+    </div>
   );
 }
 

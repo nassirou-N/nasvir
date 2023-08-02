@@ -4,6 +4,7 @@ import Hearder from './components/Hearder';
 import Hero from './components/Hero';
 import Feature from './components/Feature';
 import Profil from './components/Profil';
+import CardN from './components/CardN';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
      <Hero />
      <Feature />
      <Profil />
+     <CardN />
     </div>
   );
 }

@@ -5,6 +5,7 @@ import Hero from './components/Hero';
 import Feature from './components/Feature';
 import Profil from './components/Profil';
 import CardN from './components/CardN';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
      <Feature />
      <Profil />
      <CardN />
+     <Footer />
     </div>
   );
 }

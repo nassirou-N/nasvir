@@ -1,4 +1,5 @@
 import React from 'react'
+import { FaFacebookSquare, FaLinkedin,FaTwitter,FaGithub, FaFacebook } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -6,14 +7,15 @@ const Footer = () => {
         <div className='flex items-start justify-center flex-col'>
             <h1 className='text-4xl font-bold '>NAS<span className='text-[#00df9a]'>VIR.</span></h1>
             <p className='py-3'>Lorem will still work, but they will point to the copied scripts s</p>
-        </div>
-        <ul className=''>
-            <li className=''></li>
-            <li className=''></li>
-            <li className=''></li>
-            <li className=''></li>
+            <ul className='flex justify-around my-3 '>
+            <li className='text-2xl pr-5'><FaTwitter /> </li>
+            <li className='text-2xl pr-5'><FaLinkedin /></li>
+            <li className='text-2xl pr-5'><FaFacebook /></li>
+            <li className='text-2xl pr-5'><FaGithub /></li>
         </ul>
-        <div className='flex justify-around w-[100%] md:w-[80%]'>
+        </div>
+       
+        <div className='flex my-3 justify-around w-[100%] md:w-[80%]'>
             <div>
                 <h3 className='font-medium text-gray-200 sm:text-xl md:text-2xl'>Solution</h3>
                 <ul className=''>
